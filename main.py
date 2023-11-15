@@ -11,7 +11,7 @@ app = fastapi.FastAPI()
 
 origins = [
     "http://127.0.0.1:5000",
-    "https://contactos-frond-5ed01e72bbb6.herokuapp.com"
+    "https://herok-frontend-a476fdd3e0e6.herokuapp.com"
 ]
 
 app.add_middleware(
